@@ -6,6 +6,9 @@ const inputs = document.querySelectorAll('.code');
 		if(input.value.length === 1 && index<inputs.length-1){
 			inputs[index+1].focus();
 		}
+		 if (!/^\d$/.test(input.value)) {
+        input.value = '';
+    }
 	})
 
 	input.addEventListener('keydown',(e)=>{
