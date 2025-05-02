@@ -17,7 +17,9 @@
 	 height:50px;
 	 text-align:center;
 	 /* background-color:g; */
-	  
-       
-	 
+	}
+ body {
+	 border:2px solid black;
+	 border-radius: 8px;
+	 height:250px
  }
